@@ -1,0 +1,48 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.mainText {
+    padding: 20px 20px
+}
+
+.mainImage {
+    border-radius: 20px;
+    filter: drop-shadow(0 0 10px rgb(128 128 128));
+    margin: 40px;
+}
+
+.smallText {
+    text-align: right;
+    color: gray;
+}
+
+.makeYourOwnDiv {
+    background-color: dimgray;
+    margin: 0;
+}
+
+.makeYourOwnText{
+    margin: 100px 0 20px 0;
+    color: white;
+}
+
+
+.pizzaImage :hover{
+    transform: scale(1.05);
+}
